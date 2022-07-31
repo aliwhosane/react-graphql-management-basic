@@ -8,3 +8,12 @@ const DELETE_CLIENT = gql`
     }
   }
 `;
+
+// const ADD_CLIENT = gql`
+// mutation addProject(name: $name, description: $description, status: $status,  clientId: $clientId) {
+//       name,
+//       id
+//     }
+// `;
+
+export { DELETE_CLIENT };
